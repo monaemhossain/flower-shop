@@ -1,0 +1,44 @@
+/* global styles */
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.primary-btn{
+    background-color: #E55473;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* styles for header */
+header{
+    background-color: #e554734f;
+    padding-top: 40px;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header .header-content{
+    width: 420px;
+    padding-bottom: 40px;
+}
+header .header-content h1{
+    font-size: 50px;
+}
+header .header-content p{
+    padding:15px 0;
+    color: #272727;
+}
+header img{
+    width:340px;
+}
+
