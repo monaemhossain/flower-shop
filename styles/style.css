@@ -124,11 +124,8 @@ header img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 750px;
-}
-.hot-deals .deal{
-    width: 320px;
     text-align: center;
+    padding:0 440px;
 }
 
 /* Style for instagram section */
@@ -151,6 +148,8 @@ header img{
 /* Subscribe form Styles */
 .subscribe{
     text-align: center;
+    padding-bottom: 50px;
+    margin-top: 20px;
 }
 .subscribe .container{
     background-image: url(../images/Rectangle9.png);
@@ -171,6 +170,7 @@ footer{
     background-color: #111010;
     padding: 100px 600px;
     text-align: center;
+    margin-top: 20px;
 }
 footer h1, footer p{
     padding:8px;
