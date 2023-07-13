@@ -22,10 +22,14 @@
     color: #daf0f1;
     cursor: pointer;
 }
-.featured-title p, .benefit p,.hot-deals p{
+.featured-title p, .benefit p,.hot-deals p, .ig-title p{
     color: #505050;
     padding: 10px 0; 
 }
+h1,h2,h3,h4{
+    font-weight: 900;
+}
+
 /* styles for header */
 header{
     background-color: #e554734f;
@@ -82,9 +86,10 @@ header img{
     background-color: #f4ffed;
 }
 
-.featured .box h4{
+.featured .box p{
     padding: 20px 0;
     text-decoration: underline;
+    font-weight: 500;
 }
 .featured .box-img{
     border-radius: 310px 310px 0 0;
@@ -123,4 +128,21 @@ header img{
 .hot-deals .deal{
     width: 320px;
     text-align: center;
+}
+
+/* Style for instagram section */
+.instagram{
+    padding: 50px 0px;
+}
+.instagram .ig-title{
+    padding: 0 350px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.instagram .ig-pics{
+    display: flex;
+}
+.instagram .ig-pics img{
+    width: 283px;
+    padding: 5px;
 }
