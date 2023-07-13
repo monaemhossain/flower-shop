@@ -26,6 +26,9 @@
     color: #767777;
     padding: 10px 0; 
 }
+.red{
+    color:#e55473;
+}
 h1,h2,h3,h4{
     font-weight: 900;
 }
@@ -72,9 +75,6 @@ header img{
     justify-content: center;
     align-items: center;
 }
-.featured .pink-box,.blue-box,.green-box{
-    margin: 10px;
-}
 
 .featured .pink-box .box-img{
     background-color: #f2dee8;
@@ -94,6 +94,7 @@ header img{
 .featured .box-img{
     border-radius: 310px 310px 0 0;
     width: 300px;
+    margin: 10px;
 }
 
 .featured .box img{
@@ -164,4 +165,17 @@ header img{
     border-radius: 5px;
     margin-right: 4px;
     margin-top: 15px;
+}
+/* Styles for footer */
+footer{
+    background-color: #111010;
+    padding: 100px 600px;
+    text-align: center;
+}
+footer h1, footer p{
+    padding:8px;
+    color:#f4f4f4
+}
+footer .copyright{
+    color: #707070;
 }
