@@ -22,7 +22,7 @@
     color: #daf0f1;
     cursor: pointer;
 }
-.featured-title p, .benefit p{
+.featured-title p, .benefit p,.hot-deals p{
     color: #505050;
     padding: 10px 0; 
 }
@@ -106,4 +106,21 @@ header img{
 }
 .featured .benefit img {
     width: 70px;
+}
+
+/* Hot Deals Styles */
+.hot-deals {
+    background-color: #fdf6f8;
+    padding: 50px 0;
+    margin: 20px 0;
+}
+.hot-deals .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 750px;
+}
+.hot-deals .deal{
+    width: 320px;
+    text-align: center;
 }
