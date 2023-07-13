@@ -22,8 +22,8 @@
     color: #daf0f1;
     cursor: pointer;
 }
-.featured-title p, .benefit p,.hot-deals p, .ig-title p{
-    color: #505050;
+.featured-title p, .benefit p,.hot-deals p, .ig-title p, .subscribe p{
+    color: #767777;
     padding: 10px 0; 
 }
 h1,h2,h3,h4{
@@ -145,4 +145,23 @@ header img{
 .instagram .ig-pics img{
     width: 283px;
     padding: 5px;
+}
+
+/* Subscribe form Styles */
+.subscribe{
+    text-align: center;
+}
+.subscribe .container{
+    background-image: url(../images/Rectangle9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:115px 0;
+}
+.subscribe input[type="email"] {
+    height: 44px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 4px;
+    margin-top: 15px;
 }
