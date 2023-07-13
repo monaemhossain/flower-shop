@@ -121,11 +121,13 @@ header img{
     margin: 20px 0;
 }
 .hot-deals .container{
+    width: 650px;
+}
+.hot-deals .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding:0 440px;
 }
 
 /* Style for instagram section */
@@ -168,9 +170,12 @@ header img{
 /* Styles for footer */
 footer{
     background-color: #111010;
-    padding: 100px 600px;
+    padding: 75px 0;
     text-align: center;
     margin-top: 20px;
+}
+footer .container{
+    width: 450px;
 }
 footer h1, footer p{
     padding:8px;
