@@ -15,7 +15,10 @@
     border-radius: 5px;
     color: #fff;
 }
-
+.featured-title p, .benefit p{
+    color: #505050;
+    padding: 10px 0; 
+}
 /* styles for header */
 header{
     background-color: #e554734f;
@@ -42,3 +45,57 @@ header img{
     width:340px;
 }
 
+/* Featured Section Styles */
+.featured {
+    padding: 50px 0;
+}
+.featured .featured-title{
+    width: 400px;
+    margin:0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+.featured .box,.featured .benefits{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.featured .pink-box,.blue-box,.green-box{
+    margin: 10px;
+}
+
+.featured .pink-box .box-img{
+    background-color: #f2dee8;
+}
+.featured .blue-box .box-img{
+    background-color: #daf0f1;
+}
+.featured .green-box .box-img{
+    background-color: #f4ffed;
+}
+.featured .box h4{
+    padding: 20px 0;
+    text-decoration: underline;
+}
+.featured .box-img{
+    border-radius: 310px 310px 0 0;
+    width: 300px;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.featured .box img{
+    width:230px;
+}
+
+.featured .benefits{
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+.featured .benefit{
+    margin: 0 10px;
+}
+.featured .benefit img {
+    width: 70px;
+}
